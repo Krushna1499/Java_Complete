@@ -1,0 +1,57 @@
+Day-10
+--------------
+ArrayList
+Hashmap
+JDBC
+-------------
+
+ArrayList
+------------
+
+int a[]=new int a[5];
+
+Opearations on ArrayList
+---------------------------
+1) How to declare list
+2) How to add elements/values to array list.
+3) Find size of array list
+4) Read values from ArrayList
+5) Insert a new element in the middle of arraylist
+6) remove elements/values from arrayList.
+
+int a[]=new int[5]
+Object a[]=new Object[5]
+
+HashMap
+----------------
+Declare HASHMAP
+add elements to hashmap
+remove elements from hashmap
+read pairs from hashmap
+
+JDBC --JAVA DATABSE CONNECTIVITY
+---------------------------------
+ Pre-requisite
+ --------------
+ 1) Download databse driver(.jar file)
+ 2) Add driver jar to your project
+ 
+ Steps to write JDBC PROGRAM
+ -----------------------------
+ INSERT,UPDATE,DELETE --DML COMMANDS
+ 1) create a connection
+ 2) create a query/statement
+ 3) Execute statement/query
+ 4) close connection
+ 
+ SELECT -- DATA RETRIEVAL	/DQL DATA QUERY LANGUAGE
+ 1) create a connection
+ 2) create a query/statement
+ 3) Execute statement/query
+ 4) Store the results in result set
+ 5) close connection
+ 
+
+ 
+ 
+ 

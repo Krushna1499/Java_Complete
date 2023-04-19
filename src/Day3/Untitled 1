@@ -1,0 +1,42 @@
+Java Methods 
+A method is set of code which is refered to by name and can be called(invoked)at any point in a program
+simply by utilizing method's name
+-- a method as a subprogram that acts on data and often return a value
+-- each method has its own name
+
+Method --> Block of code
+------------------------------
+1)case1-- not taking parameters and also not returned any value
+2)case2-- not taking parameters but returning value
+3)case3-- taking parameters, but not returning any value
+4)case4-- method is taking parameters and also returning a value. 
+
+-- object is created only in main method
+we can not create object outside the main() method
+
+Constructor
+---------------------------
+1)Constructor is special type of method
+2)Constructor used for initializing the class variables
+3)Constructor name should be same as that of class name
+4)Constructor will not return any value(not even void)
+5)Constructor will be invoked at the time of object creation.
+
+Types of constructor
+--------------------------
+1)Default constructor
+2)Parameterized constructor
+
+Q.what is the difference in methods v/s Constructor?
+
+--> method
+1) method name can be anything.
+2)method can return a value.
+3)need to call method explicitly.
+4)it is used for writing logic
+
+-->Constructor
+1)Constructor name should be same as that of class name
+2)Constructor does not return a value
+3)Automatically invoked at the time of object creation.
+4)Constructor is used for intializing the variables or values.

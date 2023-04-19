@@ -1,0 +1,54 @@
+Day 5
+Java Inheritance
+Method Overriding
+super keyword
+final keyword
+------------------------
+
+Inheritance: Aquiring all the properties & behavior from one class to
+another class is called as inheritance.
+
+Parent/Base class/super class ---A class
+extends ---is used to connect two classes
+child class/sub class/derived class-- B class
+--------------------------------------
+
+5 TYPES OF INHERITANCE
+
+1) Single
+2) Multilevel
+3) Hierarchical
+4) Multiple
+5) Hybrid
+-- multiple and Hybrid both are supported with interface/implement scheme
+it does not support with extends keyword
+ 
+ Method Overriding
+ ------------------------
+ Rewrites the methods in child classes
+1) method definition should be same
+2) body should be changed
+
+super keyword
+----------------------------
+ 1) super can be used to refer immediate parent class instance variable.
+ 2) super can be used to invoke immediate parent class method.
+ 3) super() can be used to invoke immediate parent class constructor.
+ 
+ Final keyword
+ ------------------------
+ final int a=10;
+ 
+ a=20;
+ 1)final keyword is used in 
+ variable --> you cannot change the value of the variable
+ method -->  method cannot be override in the child classes.
+ class --> class cannot be extended into another 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

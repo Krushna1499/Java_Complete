@@ -1,0 +1,47 @@
+Day--4
+--------
+Overloading 
+this keyword 
+Static variables & static methods
+------------------------------------
+
+Overloading: creating methods with the same name with different parameters.
+Advantage:
+-----------
+saves memory and save time
+-----------------------
+we create a same methods in class but when we call each method how can we differentiate these methods 
+rules are
+1)Number of parameters
+2)data type of parameters
+should be different in overloading
+
+this keyword
+static--> applicable for  variables and methods
+
+static variables
+static methods
+---------------------
+imp
+1)static methods can access only static stuff(directly--without creating object)
+means we don't need to create an object for printing the values
+it shows directly the values and also we must have the static variable ,static method and static main 
+then and then only it shows result/values/output 
+
+2)static methods can also access non-static stuff but through object.
+3) non static methods can access both static & non static stuff direct.
+
+System.out.println()
+------------------------------
+class Test
+{
+static String s="welcome";
+}
+Test.s.length(); --- 7
+
+class System
+{
+Static print Stream out;
+}
+System.out.Println("testing") 
+
